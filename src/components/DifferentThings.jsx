@@ -2,8 +2,8 @@ import React from "react";
 
 const DifferentThings = () => {
   return (
-    <div className="pt-[58px]">
-      <p className=" ff_helveticaNeue font-medium text-black capitalize text-[20px] leading-[140%] text-center mb-[34px]">
+    <div className="sm:pt-[58px] pt-[50px]">
+      <p className="ff_helveticaNeue font-medium text-black capitalize text-[20px] leading-[140%] text-center sm:mb-[34px] mb-[28px] px-3">
         How would you know when you are busy with completely different things at
         the moment:
       </p>

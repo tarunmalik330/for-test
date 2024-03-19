@@ -10,7 +10,7 @@ const YourFault = () => {
         className="w-full absolute right-0 xl:top-[-33%] z-[-1] xl:max-w-[180px] max-w-[109px]"
       />
       <div className="container mx-auto px-3">
-        <div className="flex items-start justify-center lg:gap-[61px] sm:gap-[40px] gap-[28px] lg:flex-row flex-col">
+        <div className="flex items-start justify-center lg:gap-[61px] sm:gap-[40px] gap-[18px] lg:flex-row flex-col">
           <div className="max-w-[444px] w-full">
             <p className="uppercase ff_helveticaNeue text-black lg:text-[60px] sm:text-[50px] text-[35px] font-normal leading-[128.8%]">
               IT'S NOT
