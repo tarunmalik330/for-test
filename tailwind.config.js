@@ -4,7 +4,7 @@ module.exports = {
   theme: {
     extend: {
       backgroundSize: {
-        "BgSize": "50% 100%"
+        "BgSize": "100% 100%"
       }
     },
   },

@@ -15,7 +15,11 @@ const Header = () => {
   }
   return (
     <div className="relative overflow-hidden">
-      <img src={headerRelative} alt="headerRelative" className="" />
+      <img
+        src={headerRelative}
+        alt="headerRelative"
+        className="w-full absolute top-0 left-[-3%] max-w-[433px] z-[-1]"
+      />
       <img
         src={bgHeader}
         alt="bgHeader"
@@ -89,7 +93,7 @@ const Header = () => {
           </div>
         </div>
       </div>
-      <div className="container mx-auto px-3 lg:pt-[160px] pt-[60px] max-lg:pb-[20px]">
+      <div className="container mx-auto px-3 lg:pt-[160px] pt-[60px] max-lg:pb-[28px]">
         <div>
           <p className="ff_helveticaNeue text-[18.8px] text-[#F77B0B] font-medium leading-[128.8%]">
             Marc joachim hubrich
@@ -139,14 +143,14 @@ const Header = () => {
               </ul>
             </div>
           </div>
-          <div className="lg:translate-y-[-45%]">
-            <div className="flex items-center w-full max-lg:gap-4">
+          <div className="lg:translate-y-[-45%] flex max-lg:gap-5 lg:flex-col">
+            <div className="flex items-center">
               <p className="tracking-[4.5%] lg:text-black text-white text-[20px] font-light text_vertical leading-[170%] lg:ml-[-14px] lg:mb-[11px]">
                 MJH
               </p>
             </div>
             <div className="flex lg:items-baseline items-center lg:gap-[2px] gap-4">
-              <div className="border-l-[2px] border-b-[2px] border-solid border-[#F77B0B] lg:h-[269px] h-[2px] lg:w-2 sm:w-[296px] w-[150px]"></div>
+              <div className="border-l-[2px] border-b-[2px] border-solid border-[#F77B0B] lg:h-[269px] h-[2px] lg:w-8 sm:w-[296px] w-[150px]"></div>
               <p className="vertical_01 ff_helveticaNeue font-normal lg:text-black text-white leading-[128.8%] sm:text-[40px] text-[20px]">
                 01
               </p>
